@@ -49,7 +49,7 @@ namespace MonitorSwitcherGUI
 		/// <summary>
 		/// Occurs when one of the hooked keys is pressed
 		/// </summary>
-		public event KeyEventHandler KeyDown;
+		//public event KeyEventHandler KeyDown;
 		/// <summary>
 		/// Occurs when one of the hooked keys is released
 		/// </summary>

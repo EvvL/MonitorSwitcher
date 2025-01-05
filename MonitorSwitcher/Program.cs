@@ -477,7 +477,7 @@ namespace MonitorSwitcherGUI
                             {
                                 additionalInfo[iMode] = CCDWrapper.GetMonitorAdditionalInfo(modeInfoArray[iMode].adapterId, modeInfoArray[iMode].id);
                             }
-                            catch (Exception e)
+                            catch (Exception)
                             {
                                 additionalInfo[iMode].valid = false;
                             }
